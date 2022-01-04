@@ -1,38 +1,109 @@
-.App {
+body{
+  padding: 0;
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.prueba-container{
+  padding: 5rem 15rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2F2F2;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.logo img{
+  width: 10%;
+  margin-left: 1rem;
+}
+
+.prueba-container h1{
   text-align: center;
+  font-size: 3rem;
+  color: #311905;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.suma-principal{
+  background-color: #ADC8D9;
+  width: 100%;
+  padding: 3rem;
+  padding-bottom: 5rem;
+  border-bottom: 2px solid #16a6ff;
+  border-radius: 20px 20px 0 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.suma-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.operaciones{
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 2px solid #003d62;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+.operaciones:hover{
+  box-shadow: 0px 0px 23px 4px #395d74a8;
+}
+
+.operaciones button {
+  background-color: #04790ac7;
+  padding: 0.8rem 2.5rem;
   color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: inherit;
+  text-transform: uppercase;
+  position: relative;
+  transition: all .4s ease-in-out;
+  border-radius: 20px;
+  border: 2px solid #04790ac7;
 }
 
-.App-link {
-  color: #61dafb;
+.operaciones button:hover{
+  border: 2px solid white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.suma-resultado{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem
+}
+
+.suma-resultado p{
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #003d62;
+}
+
+.suma-resultado button{
+  background-color: #750909c7;
+  padding: 0.8rem 2.5rem;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: inherit;
+  text-transform: uppercase;
+  position: relative;
+  transition: all .4s ease-in-out;
+  border-radius: 20px;
+  border: 2px solid #750909c7;
+}
+
+.suma-resultado button:hover{
+  border: 2px solid white;
 }
