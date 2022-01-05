@@ -7,7 +7,7 @@ export default function NavBar() {
         <div className='navbar-container'>
             {/* logo */}
             <div className='navbar-logo'>
-                <a href='https://www.blinklearning.com/home' target='_blank'  rel="noreferrer">
+                <a href='/'>
                     <img src={logo} alt="logo" />
                 </a>
             </div>
@@ -15,13 +15,13 @@ export default function NavBar() {
             {/* links */}
             <div className='links-container'>
                 <ul>
-                    <li><a href='#'>JavaScript</a></li>
+                    <li><a href='/javascript'>JavaScript</a></li>
                 </ul>
                 <ul>
-                    <li><a href='#'>React</a></li>
+                    <li><a href='/react'>React</a></li>
                 </ul>
                 <ul>
-                    <li><a href='#'>CSS</a></li>
+                    <li><a href='/boton-css'>CSS</a></li>
                 </ul>
             </div>
         </div>

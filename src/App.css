@@ -46,7 +46,7 @@ h2::after{
   font-size: 1.5rem;
   color: #FFF;
   padding-bottom: 0.2rem;
-  margin-right: 5rem;
+  margin-left: 5rem;
 }
 .links-container a:hover{
   border-bottom: 3px solid #FFF;  
@@ -129,7 +129,6 @@ h2::after{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem
 }
 
 .suma-resultado p{

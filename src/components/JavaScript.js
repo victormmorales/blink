@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import Footer from './Footer';
+import NavBar from './Navbar';
 
 export default function JavaScript() {
 
@@ -34,6 +36,7 @@ export default function JavaScript() {
     };
 
     return (
+        <>
         <div className='suma-principal'>
             <h2>1. <span>JavaScript</span></h2>
             <div className='suma-container'>
@@ -57,5 +60,6 @@ export default function JavaScript() {
                 <button onClick={ () => setResultado(0)}>Reiniciar</button>
             </div>
         </div>
+        </>
     )
 }
