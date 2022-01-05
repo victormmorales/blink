@@ -5,7 +5,7 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 function BotonCss() {
     return (
         <div className='suma-principal'>
-            <h2>3. CSS</h2>
+            <h2>3. <span>CSS</span></h2>
             <div className='suma-container'>
                 <button className='button-star'>
                     <div className='button-border'>

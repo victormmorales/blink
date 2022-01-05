@@ -35,7 +35,7 @@ export default function JavaScript() {
 
     return (
         <div className='suma-principal'>
-            <h2>1. JavaScript</h2>
+            <h2>1. <span>JavaScript</span></h2>
             <div className='suma-container'>
                 <div className='operaciones'>
                     <p>Lista1: 1, 4, 3, 0</p>
