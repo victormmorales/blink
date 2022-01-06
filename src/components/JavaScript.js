@@ -32,7 +32,7 @@ export default function JavaScript() {
             console.error('No es un array');
         };
 
-        return setResultado(total);
+        return setResultado(total)
     };
 
     const reducer = (a, b) => a + b;
