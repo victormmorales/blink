@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import logo from '../assets/img/logo.png';
 
 export default function NavBar() {
+    // Meter location
     return (
         <div className='navbar-container'>
             {/* logo */}
