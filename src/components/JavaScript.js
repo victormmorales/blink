@@ -35,6 +35,9 @@ export default function JavaScript() {
         return setResultado(total);
     };
 
+    const reducer = (a, b) => a + b;
+    console.log(lista2.reduce(reducer));
+
     return (
         <>
         <div className='suma-principal'>
