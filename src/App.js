@@ -18,21 +18,25 @@ function App() {
           <Home />
           <Footer />
         </Route>
+
         <Route exact path='/javascript'>
           <NavBar />
           <JavaScript />
           <Footer />
         </Route>
+
         <Route exact path='/react'>
           <NavBar />
           <ReactJS />
           <Footer />
         </Route>
+
         <Route exact path='/boton-css'>
           <NavBar />
           <BotonCss />
           <Footer />
         </Route>
+        
         <Route exact path='/backend'>
           <NavBar />
           <Backend />

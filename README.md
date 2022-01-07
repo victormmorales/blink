@@ -39,7 +39,7 @@ como :
 
 
 ## CSS - Buton
-Replicar el botón con CSS
+Replicar botón con CSS
 
 ![react](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1641547610/blink/css_mswaqq.png)
 
