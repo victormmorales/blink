@@ -8,7 +8,7 @@ export default function Backend() {
             <div className='react-pregunta'>
                 <p>Mi experiencia en Backend es con <b>JavaScript, NodeJS y ExpressJS</b>. Sería un
                 un placer y una oportundiad poder aprender otros lenguajes y frameworks para seguir
-                formandome y creciendo en mi perfil profesional.</p>
+                formándome y creciendo en mi perfil profesional.</p>
                 <br/>
             </div>
 
@@ -20,7 +20,7 @@ export default function Backend() {
                 es un bucle while.</p>
                 
                 <p>Se realizará una sola vez ya que la variable i es igual a 0, mientras se cumpla una condición,
-                en este caso hasta que la variable i sea igual a 1. Cuando esa condiciónsea cierta se realizará
+                en este caso hasta que la variable i sea igual a 1. Cuando esa condición sea cierta se realizará
                 todo el proceso hasta que la condición sea falsa.
                 </p>
                 <br/>
