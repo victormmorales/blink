@@ -248,3 +248,77 @@ h2::after{
 .footer p span{
   font-weight: 800;
 }
+
+/* *********Medias Querys********* */
+/* Tablet */
+@media(min-width: 750px) and (max-width: 1200px){
+  .navbar-container{
+    padding: 0 5rem;
+  }
+
+  .links-container a{
+    font-size: 1rem;
+    margin-left: 3rem;
+  }
+  
+  .prueba-container{
+    padding: 5rem;
+  }
+
+  .suma-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* Móvil */
+@media(max-width: 500px){
+  .navbar-container{
+    padding: 0 1rem;
+  }
+
+  .links-container a{
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  
+  .prueba-container{
+    padding: 2rem;
+  }
+
+  .prueba-container h1{
+    font-size: 2rem;
+  }
+
+  .suma-container {
+    display: flex;
+    flex-direction: column;
+  }   
+  
+  .suma-principal{
+    padding: 1rem;
+  }
+
+  .colores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-star{
+    border-radius: 20px;
+    padding: 0.5rem;
+    border: 2px solid #414141;
+  }
+
+  .button-border {
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 1px #41414165;
+  }
+
+  .button-star svg {
+    font-size: 1rem;
+  }
+}

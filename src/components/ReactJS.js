@@ -28,7 +28,7 @@ function ReactJS() {
             {/* Pregunta 2.2 */}
             <div className='react-ejercicio'>
                 <h4>2.2. Lista Desordenada</h4>
-                <p>Colores:
+                <p className='colores'>Colores:
                     <span className='amarillo'>Amarillo</span>
                     <span className='azul'>Azul</span>
                     <span className='rojo'>Rojo</span>
