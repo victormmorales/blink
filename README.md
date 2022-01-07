@@ -1,7 +1,8 @@
-![logo](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1641548255/blink/logo_mzcvy1.png)
-
 # [Blink - Prueba Técnica 👨🏻‍💻](https://blink-prueba-tecnica.netlify.app/):
 https://blink-prueba-tecnica.netlify.app/
+
+![logo](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1641548255/blink/logo_mzcvy1.png)
+
 
 Es necesario instalar las dependencias del proyecto a través del comando:
 `npm install`
