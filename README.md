@@ -34,13 +34,18 @@ como :
     `<li>Verde</li>`
 `</ul>`
 
-![react](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1641547611/blink/javascript_u0mbwr.png)
+![react](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1641547609/blink/react_ra5skl.png)
 
 
 ## CSS - Buton
+Replicar el botón con CSS
+
 ![react](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1641547610/blink/css_mswaqq.png)
 
 ## Backend
+1. ¿Cuál es la salida de este código en PHP: $i=0;while ($i=1) echo ++$i;?
+
+2. ¿Qué función en PHP utilizarías para quitar todos los espacios de un string?
 ![backend](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1641547611/blink/backend_fupdgh.png)
 
 ---
