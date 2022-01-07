@@ -1,40 +1,49 @@
 ![logo](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1629360773/tus-proyectos/tus-proyectos-titulo_xx9bka.png)
 
-# [Prueba Técnica 👨🏻‍💻](https://tusproyectos.netlify.app/).
+# [Prueba Técnica 👨🏻‍💻](https://blink-prueba-tecnica.netlify.app/):
+https://blink-prueba-tecnica.netlify.app/
 
 Es necesario instalar las dependencias del proyecto a través del comando:
-- 'npm instal'
+- `npm install`
 
-## JavaScritp
----
-![Sitio web](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1629360773/tus-proyectos/tus-proyectos-macbook_umicc6.png)
+## JavaScript
+Parte de la prueba técnica de Javascript.
 
-App realizada mediante la libería React, Mongo, Express & Node.
+- Implementar la función sumaArray para calcular, de forma genérica, la suma de los elementos
+de un array numérico (incluyendo varios niveles).
 
-- Creada con componentes funcionales
-- Manenjando los diferentes estados en el formulario (Hook useState y useContext)
-- Validación de formularios
-- Asignación de IDs únicos
-- Reinicio del formulario cuando lo envía el usuario
-- Mensajes de error 
-- Componentes condicionales
-- Totalmente Responsive:
----
-![Responsive](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1629360773/tus-proyectos/tus-poyectos-iphone_sfpjpb.png)
+function sumaArray(lista) {…}
 
+Ejemplos de arrays a pasar en la función:
+var lista1 = [1, 4, 3, 0];
+var lista2 = [1, 2, [5, 8], 4];
+var lista3 = [0, [6, 2], null, 7, 1];
+
+![javascript](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1641547611/blink/javascript_u0mbwr.png)
 
 ## React
-Creando la estructura:
+1.- ¿Qué pasa cuando sea llama a setState?
+2.- Implementar un componente React que muestre una lista desordenada dado un array de
+strings. Por ejemplo, el resultado del array [“Amarillo”, “Azul”, “Rojo”, “Verde”] deberá ser algo
+como :
 
-`npx create-react-app`
-Runs the app in the development mode.
-Open http://localhost:3000 to view it in the browser.
+`<u>`
+    `<li>Amarillo</li>`
+`</ul>`
+&lt;ul&gt;
+&lt;li&gt;Amarillo&lt;/li&gt;
+&lt;li&gt;Azul&lt;/li&gt;
+&lt;li&gt;Rojo&lt;/li&gt;
+&lt;li&gt;Verde&lt;/li&gt;
+&lt;/ul&gt;
+![react](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1641547611/blink/javascript_u0mbwr.png)
+
 
 ## CSS - Buton
+![react](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1641547610/blink/css_mswaqq.png)
 
-Creación de los componentes para poder iniciar sesión o crear una nueva cuenta. también dejamos definido el routing de la app para navegar por las diferentes páginas.
-
-Creación de los componentes para poder iniciar sesión o crear una nueva cuenta. también dejamos definido el routing de la app para navegar por las diferentes páginas.
+## Backend
+![backend](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1641547611/blink/backend_fupdgh.png)
 
 ---
 
