@@ -7,6 +7,8 @@ https://blink-prueba-tecnica.netlify.app/
 Es necesario instalar las dependencias del proyecto a través del comando:
 `npm install`
 
+¡Además, es responsive para poder visualizarla en cualquier dispositivo!
+
 ## JavaScript
 Parte de la prueba técnica de Javascript.
 

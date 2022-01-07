@@ -276,13 +276,22 @@ h2::after{
     padding: 0 1rem;
   }
 
-  .links-container a{
-    font-size: 1rem;
-    margin-left: 1rem;
+  .navbar-logo img {
+    width: 60%;
   }
-  
+
+  .links-container{
+    justify-content: center;
+  }
+
   .prueba-container{
     padding: 2rem;
+  }
+
+  .links-container a{
+    font-size: 1rem;
+    margin-left: 0.3rem;
+    font-size: 0.8rem;
   }
 
   .prueba-container h1{
