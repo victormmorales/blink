@@ -12,7 +12,7 @@ export default function JavaScript() {
   let lista2 = [1, 2, [5, 8], 4];
   let lista3 = [0, [6, 2], null, 7, 1];
 
-  const sumArray2 = (array) => {
+  const sumArray = (array) => {
     let total = 0;
 
     let totalArray = 0;
@@ -53,17 +53,17 @@ export default function JavaScript() {
       <div className="suma-container">
         <div className="operaciones">
           <p>Lista1: 1, 4, 3, 0</p>
-          <button onClick={() => sumArray2(lista1)}>Sumar</button>
+          <button onClick={() => sumArray(lista1)}>Sumar</button>
         </div>
 
         <div className="operaciones">
           <p>Lista2: 1, 2, [5, 8], 4</p>
-          <button onClick={() => sumArray2(lista2)}>Sumar</button>
+          <button onClick={() => sumArray(lista2)}>Sumar</button>
         </div>
 
         <div className="operaciones">
           <p>Lista3: 0, [6, 2], null, 7, 1</p>
-          <button onClick={() => sumArray2(lista3)}>Sumar</button>
+          <button onClick={() => sumArray(lista3)}>Sumar</button>
         </div>
       </div>
       <div className="suma-resultado">
