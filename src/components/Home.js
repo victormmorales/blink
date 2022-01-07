@@ -1,11 +1,9 @@
 import React from 'react';
 // Components:
-import Navbar from './Navbar';
 import JavaScript from './JavaScript';
 import ReactJS from './ReactJS';
 import BotonCss from './BotonCss';
-import Footer from './Footer';
-
+import Backend from './Backend';
 
 export default function Home() {
     return (
@@ -18,6 +16,7 @@ export default function Home() {
           <JavaScript />
           <ReactJS />
           <BotonCss />
+          <Backend />
         </div>
       </div>
     )

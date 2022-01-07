@@ -1,12 +1,13 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 // Components:
+import NavBar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './components/Home';
 import JavaScript from './components/JavaScript';
 import ReactJS from './components/ReactJS';
 import BotonCss from './components/BotonCss';
-import NavBar from './components/Navbar';
-import Footer from './components/Footer';
+import Backend from './components/Backend';
 
 function App() {
   return (
@@ -30,6 +31,11 @@ function App() {
         <Route exact path='/boton-css'>
           <NavBar />
           <BotonCss />
+          <Footer />
+        </Route>
+        <Route exact path='/backend'>
+          <NavBar />
+          <Backend />
           <Footer />
         </Route>
       </Switch>
