@@ -1,4 +1,4 @@
-![logo](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1629360773/tus-proyectos/tus-proyectos-titulo_xx9bka.png)
+![logo](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1641548255/blink/logo_mzcvy1.png)
 
 # [Prueba Técnica 👨🏻‍💻](https://blink-prueba-tecnica.netlify.app/):
 https://blink-prueba-tecnica.netlify.app/
