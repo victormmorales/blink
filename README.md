@@ -1,6 +1,6 @@
 ![logo](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1641548255/blink/logo_mzcvy1.png)
 
-# [Prueba Técnica 👨🏻‍💻](https://blink-prueba-tecnica.netlify.app/):
+# [Blink - Prueba Técnica 👨🏻‍💻](https://blink-prueba-tecnica.netlify.app/):
 https://blink-prueba-tecnica.netlify.app/
 
 Es necesario instalar las dependencias del proyecto a través del comando:
