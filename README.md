@@ -27,9 +27,9 @@ var lista3 = [0, [6, 2], null, 7, 1];
 strings. Por ejemplo, el resultado del array [“Amarillo”, “Azul”, “Rojo”, “Verde”] deberá ser algo
 como :
 
-`<u>`
-    `<li>Amarillo</li>`
-`</ul>`
+`<u>
+    <li>Amarillo</li>
+</ul>`
 &lt;ul&gt;
 &lt;li&gt;Amarillo&lt;/li&gt;
 &lt;li&gt;Azul&lt;/li&gt;
